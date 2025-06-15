@@ -6,7 +6,7 @@ import {
   Group,
   TextInput,
   Select,
-  Slider,
+  RangeSlider,
   Text,
   Box,
   Divider,
@@ -20,7 +20,7 @@ import { useState } from 'react';
 import classes from './SearchSection.module.css';
 
 export function SearchSection() {
-  const [salaryRange, setSalaryRange] = useState([50, 80]);
+  const [salaryRange, setSalaryRange] = useState<[number, number]>([50, 80]);
 
   return (
     <Container size="xl" py="xl">
@@ -67,8 +67,7 @@ export function SearchSection() {
                 ₹{salaryRange[0]}k - ₹{salaryRange[1]}k
               </Text>
             </Group>
-            <Slider
-              range
+            <RangeSlider
               value={salaryRange}
               onChange={setSalaryRange}
               min={10}
