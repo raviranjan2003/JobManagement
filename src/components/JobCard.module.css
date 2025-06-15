@@ -1,0 +1,104 @@
+.card {
+  height: 360px;
+  position: relative;
+  box-shadow: 0px 0px 14px rgba(211, 211, 211, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 25px rgba(211, 211, 211, 0.25);
+}
+
+.cardHeader {
+  padding: 16px 16px 0 16px;
+}
+
+.logoContainer {
+  width: 83px;
+  height: 82px;
+  border-radius: 13.18px;
+  overflow: hidden;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10.25px rgba(148, 148, 148, 0.25);
+  background: linear-gradient(180deg, rgba(254, 254, 253, 1) 0%, rgba(241, 241, 241, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoWrapper {
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logoImageDirect {
+  width: 66px;
+  height: 66px;
+  object-fit: cover;
+}
+
+.timeBadge {
+  background-color: #afd8ff !important;
+  color: black !important;
+  font-weight: 500;
+}
+
+.jobTitle {
+  line-height: 1.2;
+}
+
+.jobDetails {
+  flex-wrap: wrap;
+}
+
+.description {
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.applyButton {
+  background-color: #00aaff !important;
+  box-shadow: 0px 0px 14px rgba(92, 92, 92, 0.15);
+  margin-top: auto;
+}
+
+.applyButton:hover {
+  background-color: #0099ee !important;
+}
+
+/* Logo container specific styles */
+.logoWrapper.bg-white {
+  background-color: white;
+  border-radius: 102.5px;
+}
+
+.logoWrapper.bg-orange {
+  background-color: #f7881f;
+  border-radius: 93.33px;
+}
+
+@media (max-width: 768px) {
+  .jobDetails {
+    gap: 8px;
+  }
+  
+  .jobDetails > div {
+    flex: 1;
+    min-width: fit-content;
+  }
+}

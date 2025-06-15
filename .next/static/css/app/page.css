@@ -1,0 +1,306 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/CreateJobModal.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.CreateJobModal_modal__OmGaJ {
+  border-radius: 20px !important;
+}
+
+.CreateJobModal_modalContent__Ag__E {
+  border-radius: 20px !important;
+  padding: 0 !important;
+}
+
+.CreateJobModal_modalHeader__EExxM {
+  padding: 24px 24px 0 24px;
+  border-bottom: none;
+}
+
+.CreateJobModal_modalTitle__gIg1C {
+  color: #303030;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+.CreateJobModal_modalBody__ZiY56 {
+  padding: 24px;
+  max-height: calc(90vh - 120px);
+  overflow-y: auto;
+}
+
+.CreateJobModal_formSection__rIZvq {
+  margin-bottom: 32px;
+}
+
+.CreateJobModal_sectionTitle__KtjZv {
+  color: #303030;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.CreateJobModal_inputGroup__JLHRh {
+  margin-bottom: 16px;
+}
+
+.CreateJobModal_inputLabel__JSybL {
+  color: #303030;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.CreateJobModal_textInput__HbVXj,
+.CreateJobModal_selectInput__RUzwc,
+.CreateJobModal_textareaInput__vPf_v {
+  border: 0px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.CreateJobModal_textInput__HbVXj:focus,
+.CreateJobModal_selectInput__RUzwc:focus,
+.CreateJobModal_textareaInput__vPf_v:focus {
+  border-color: #9640ff;
+  box-shadow: 0 0 0 1px #9640ff;
+}
+
+.CreateJobModal_salaryGroup__G4OS1 {
+  display: flex;
+  gap: 12px;
+}
+
+.CreateJobModal_salaryInput__dAslm {
+  flex: 1;
+}
+
+.CreateJobModal_skillsInput__0ag4C {
+  min-height: 40px;
+}
+
+.CreateJobModal_switchGroup__GsMId {
+  margin-top: 24px;
+}
+
+.CreateJobModal_actionButtons__DugD1 {
+  padding: 24px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  gap: 12px;
+}
+
+.CreateJobModal_cancelButton__4Neud {
+  background: white;
+  color: #666666;
+  border: 1px solid #e0e0e0;
+  font-weight: 600;
+}
+
+.CreateJobModal_cancelButton__4Neud:hover {
+  background: #f8f9fa;
+}
+
+.CreateJobModal_submitButton__RoIZ4 {
+  background: #0099ee;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+/* .submitButton:hover {
+  background: linear-gradient(180deg, #9020e6 0%, #550094 100%);
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .CreateJobModal_modalContent__Ag__E {
+    margin: 10px;
+    max-height: calc(100vh - 20px);
+  }
+  
+  .CreateJobModal_modalBody__ZiY56 {
+    max-height: calc(100vh - 180px);
+  }
+  
+  .CreateJobModal_salaryGroup__G4OS1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Header.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__MvnS2 {
+  background: white;
+  border-radius: 122px;
+  border: 1px solid #fcfcfc;
+  box-shadow: 0px 0px 20px rgba(127, 127, 127, 0.15);
+  height: 80px;
+  padding: 0 24px;
+}
+
+.Header_link__qN2Ll {
+  display: block;
+  line-height: 1;
+  padding: 8px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #303030;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.Header_link__qN2Ll:hover {
+  background-color: #f8f9fa;
+  color: #6c5ce7;
+}
+
+@media (max-width: 767px) {
+  .Header_header__MvnS2 {
+    height: 60px;
+    padding: 0 16px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/SearchSection.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.SearchSection_searchContainer__yiLb5 {
+  background: white;
+  box-shadow: 0px 0px 14px rgba(197, 191, 191, 0.25);
+}
+
+.SearchSection_searchInput__C93pR input {
+  color: #686868;
+  font-weight: 500;
+}
+
+.SearchSection_divider__ZVZSj {
+  height: 48px;
+  align-self: center;
+}
+
+.SearchSection_salarySection__elNJV {
+  min-width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .SearchSection_searchContainer__yiLb5 {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .SearchSection_divider__ZVZSj {
+    display: none;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/JobCard.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.JobCard_card__4y_SN {
+  height: 360px;
+  position: relative;
+  box-shadow: 0px 0px 14px rgba(211, 211, 211, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.JobCard_card__4y_SN:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 25px rgba(211, 211, 211, 0.25);
+}
+
+.JobCard_cardHeader__GDzK7 {
+  padding: 16px 16px 0 16px;
+}
+
+.JobCard_logoContainer__wSf1S {
+  width: 83px;
+  height: 82px;
+  border-radius: 13.18px;
+  overflow: hidden;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10.25px rgba(148, 148, 148, 0.25);
+  background: linear-gradient(180deg, rgba(254, 254, 253, 1) 0%, rgba(241, 241, 241, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.JobCard_logoWrapper__mzDRt {
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.JobCard_logoImage__2dFy5 {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.JobCard_logoImageDirect__mqteT {
+  width: 66px;
+  height: 66px;
+  object-fit: cover;
+}
+
+.JobCard_timeBadge__9OtBa {
+  background-color: #afd8ff !important;
+  color: black !important;
+  font-weight: 500;
+}
+
+.JobCard_jobTitle__5l_L5 {
+  line-height: 1.2;
+}
+
+.JobCard_jobDetails__JHDA0 {
+  flex-wrap: wrap;
+}
+
+.JobCard_description__4p5xK {
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.JobCard_applyButton__wTG8h {
+  background-color: #00aaff !important;
+  box-shadow: 0px 0px 14px rgba(92, 92, 92, 0.15);
+  margin-top: auto;
+}
+
+.JobCard_applyButton__wTG8h:hover {
+  background-color: #0099ee !important;
+}
+
+/* Logo container specific styles */
+.JobCard_logoWrapper__mzDRt.JobCard_bg-white__Tqm7Z {
+  background-color: white;
+  border-radius: 102.5px;
+}
+
+.JobCard_logoWrapper__mzDRt.JobCard_bg-orange__MKUVj {
+  background-color: #f7881f;
+  border-radius: 93.33px;
+}
+
+@media (max-width: 768px) {
+  .JobCard_jobDetails__JHDA0 {
+    gap: 8px;
+  }
+  
+  .JobCard_jobDetails__JHDA0 > div {
+    flex: 1;
+    min-width: fit-content;
+  }
+}

@@ -1,0 +1,128 @@
+.modal {
+  border-radius: 20px !important;
+}
+
+.modalContent {
+  border-radius: 20px !important;
+  padding: 0 !important;
+}
+
+.modalHeader {
+  padding: 24px 24px 0 24px;
+  border-bottom: none;
+}
+
+.modalTitle {
+  color: #303030;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+
+.modalBody {
+  padding: 24px;
+  max-height: calc(90vh - 120px);
+  overflow-y: auto;
+}
+
+.formSection {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  color: #303030;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.inputGroup {
+  margin-bottom: 16px;
+}
+
+.inputLabel {
+  color: #303030;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.textInput,
+.selectInput,
+.textareaInput {
+  border: 0px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.textInput:focus,
+.selectInput:focus,
+.textareaInput:focus {
+  border-color: #9640ff;
+  box-shadow: 0 0 0 1px #9640ff;
+}
+
+.salaryGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.salaryInput {
+  flex: 1;
+}
+
+.skillsInput {
+  min-height: 40px;
+}
+
+.switchGroup {
+  margin-top: 24px;
+}
+
+.actionButtons {
+  padding: 24px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  gap: 12px;
+}
+
+.cancelButton {
+  background: white;
+  color: #666666;
+  border: 1px solid #e0e0e0;
+  font-weight: 600;
+}
+
+.cancelButton:hover {
+  background: #f8f9fa;
+}
+
+.submitButton {
+  background: #0099ee;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+/* .submitButton:hover {
+  background: linear-gradient(180deg, #9020e6 0%, #550094 100%);
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modalContent {
+    margin: 10px;
+    max-height: calc(100vh - 20px);
+  }
+  
+  .modalBody {
+    max-height: calc(100vh - 180px);
+  }
+  
+  .salaryGroup {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

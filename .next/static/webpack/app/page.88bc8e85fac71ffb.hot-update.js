@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./src/components/JobCard.module.css":
+/*!*******************************************!*\
+  !*** ./src/components/JobCard.module.css ***!
+  \*******************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"card\":\"JobCard_card__4y_SN\",\"job-card-root\":\"JobCard_job-card-root__07VjX\",\"cardHeader\":\"JobCard_cardHeader__GDzK7\",\"logoContainer\":\"JobCard_logoContainer__wSf1S\",\"logoWrapper\":\"JobCard_logoWrapper__mzDRt\",\"logoImage\":\"JobCard_logoImage__2dFy5\",\"logoImageDirect\":\"JobCard_logoImageDirect__mqteT\",\"timeBadge\":\"JobCard_timeBadge__9OtBa\",\"jobTitle\":\"JobCard_jobTitle__5l_L5\",\"jobDetails\":\"JobCard_jobDetails__JHDA0\",\"description\":\"JobCard_description__4p5xK\",\"applyButton\":\"JobCard_applyButton__wTG8h\",\"bg-white\":\"JobCard_bg-white__Tqm7Z\",\"bg-orange\":\"JobCard_bg-orange__MKUVj\"};\n    if(true) {\n      // 1750018315403\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"53859b94e502\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9jb21wb25lbnRzL0pvYkNhcmQubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBLGtCQUFrQjtBQUNsQixPQUFPLElBQVU7QUFDakI7QUFDQSxzQkFBc0IsbUJBQU8sQ0FBQyx3TUFBMEosY0FBYyxzREFBc0Q7QUFDNVAsTUFBTSxVQUFVO0FBQ2hCO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvY29tcG9uZW50cy9Kb2JDYXJkLm1vZHVsZS5jc3M/MDRhYiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbm1vZHVsZS5leHBvcnRzID0ge1wiY2FyZFwiOlwiSm9iQ2FyZF9jYXJkX180eV9TTlwiLFwiam9iLWNhcmQtcm9vdFwiOlwiSm9iQ2FyZF9qb2ItY2FyZC1yb290X18wN1ZqWFwiLFwiY2FyZEhlYWRlclwiOlwiSm9iQ2FyZF9jYXJkSGVhZGVyX19HRHpLN1wiLFwibG9nb0NvbnRhaW5lclwiOlwiSm9iQ2FyZF9sb2dvQ29udGFpbmVyX193U2YxU1wiLFwibG9nb1dyYXBwZXJcIjpcIkpvYkNhcmRfbG9nb1dyYXBwZXJfX216RFJ0XCIsXCJsb2dvSW1hZ2VcIjpcIkpvYkNhcmRfbG9nb0ltYWdlX18yZEZ5NVwiLFwibG9nb0ltYWdlRGlyZWN0XCI6XCJKb2JDYXJkX2xvZ29JbWFnZURpcmVjdF9fbXF0ZVRcIixcInRpbWVCYWRnZVwiOlwiSm9iQ2FyZF90aW1lQmFkZ2VfXzlPdEJhXCIsXCJqb2JUaXRsZVwiOlwiSm9iQ2FyZF9qb2JUaXRsZV9fNWxfTDVcIixcImpvYkRldGFpbHNcIjpcIkpvYkNhcmRfam9iRGV0YWlsc19fSkhEQTBcIixcImRlc2NyaXB0aW9uXCI6XCJKb2JDYXJkX2Rlc2NyaXB0aW9uX180cDV4S1wiLFwiYXBwbHlCdXR0b25cIjpcIkpvYkNhcmRfYXBwbHlCdXR0b25fX3dURzhoXCIsXCJiZy13aGl0ZVwiOlwiSm9iQ2FyZF9iZy13aGl0ZV9fVHFtN1pcIixcImJnLW9yYW5nZVwiOlwiSm9iQ2FyZF9iZy1vcmFuZ2VfX01LVVZqXCJ9O1xuICAgIGlmKG1vZHVsZS5ob3QpIHtcbiAgICAgIC8vIDE3NTAwMTgzMTU0MDNcbiAgICAgIHZhciBjc3NSZWxvYWQgPSByZXF1aXJlKFwiQzovVXNlcnMvUkFWSSBSQU5KQU4vRG93bmxvYWRzL3Byb2plY3QtYm9sdC1zYjEtZXd5N3dpaG8gKDEpL3Byb2plY3Qvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jb21waWxlZC9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9obXIvaG90TW9kdWxlUmVwbGFjZW1lbnQuanNcIikobW9kdWxlLmlkLCB7XCJwdWJsaWNQYXRoXCI6XCIvX25leHQvXCIsXCJlc01vZHVsZVwiOmZhbHNlLFwibG9jYWxzXCI6dHJ1ZX0pO1xuICAgICAgbW9kdWxlLmhvdC5kaXNwb3NlKGNzc1JlbG9hZCk7XG4gICAgICBcbiAgICB9XG4gIFxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiNTM4NTliOTRlNTAyXCJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/components/JobCard.module.css\n"));
+
+/***/ })
+
+});
