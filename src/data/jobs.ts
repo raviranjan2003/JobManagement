@@ -1,6 +1,10 @@
-import { Job } from '@/types/job';
+// import { Job } from '@/types/job';
 
-export const jobData: Job[] = [
+
+// export const jobData: Job[] = [];
+
+
+export const jobData = [
   {
     id: 1,
     title: "Full Stack Developer",
