@@ -15,6 +15,7 @@ import {
   IconMapPin,
   IconCurrencyDollar,
 } from '@tabler/icons-react';
+import { notifications } from '@mantine/notifications';
 import { Job } from '@/types/job';
 import classes from './JobCard.module.css';
 
@@ -101,6 +102,13 @@ export function JobCard({ job }: JobCardProps) {
         size="md"
         fw={700}
         className={classes.applyButton}
+        onClick={() => {
+          notifications.show({
+            title: 'Job Applied',
+            message: 'You have applied to the job',
+            color: 'green',
+          });
+        }}
       >
         Apply Now
       </Button>
