@@ -29,11 +29,12 @@ export function JobListings({ filters = {}, refresh }: { filters?: Record<string
       spacing="lg"
       verticalSpacing="lg"
     >
-      {/* {
+      {/* For meeting the figma design, I have added the dummy data to the jobData array to the jobData.ts file */}
+      {
         jobData.map((job: any) => (
           <JobCard key={job.id} job={job} />
         ))
-      } */}
+      }
       {jobs.length > 0 ? jobs.map((job: any) => (
         <JobCard key={job.id} job={job} />
       )) : jobData.map((job: any) => (
